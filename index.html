@@ -15,4 +15,11 @@
   </main>
 </body>
 
+<script>
+  (async function() {
+    let { text } = await( await fetch(`/api/GetMessage`)).json();
+    document.querySelector('#name').textContent = text;
+  }())
+</script>
+
 </html>
