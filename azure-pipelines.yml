@@ -1,12 +1,10 @@
+#Azure pipelines
+
 trigger:
-master
-vmImage: ubuntu-latest
+ -master
+pool:
+  vmImage: ubuntu-latest
 steps:
-checkout: self
-submodules: true
-task: AzureStaticWebApp@0
-inputs:
-app_location: '/src'
-api_location: ''
-output_location: 'wwwroot'
-azure_static_web_apps_api_token:$(my_static_webapp_taken)
+ -scripts: "Hello World"
+ 
+
