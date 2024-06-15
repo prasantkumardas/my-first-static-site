@@ -3,10 +3,10 @@
 trigger:
  - master
 
- 
+
 pool:
- images: ubuntu-latest
- steps:
+vmimage: ubuntu-latest
+steps:
   - scripts: Hello World !
   
 
