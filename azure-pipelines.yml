@@ -9,4 +9,4 @@ inputs:
 app_location: '/src'
 api_location: ''
 output_location: 'wwwroot'
-azure_static_web_apps_api_token:$(my_static_webapp_token)
+azure_static_web_apps_api_token:$(my_static_webapp_taken)
