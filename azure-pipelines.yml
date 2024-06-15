@@ -2,6 +2,8 @@
 
 trigger:
  - master
+
+ 
 pool:
  images: ubuntu-latest
  steps:
