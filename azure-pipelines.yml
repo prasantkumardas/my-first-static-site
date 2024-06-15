@@ -1,10 +1,10 @@
 #Azure pipelines
 
 trigger:
- -master
+ - master
 pool:
-  vmImage: ubuntu-latest
-steps:
- -scripts: "Hello World"
- 
+ images: ubuntu-latest
+ steps:
+  - scripts: Hello World !
+  
 
